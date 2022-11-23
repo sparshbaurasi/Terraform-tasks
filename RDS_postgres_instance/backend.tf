@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "mybucket"
-    key    = "state/terraform.tfstate"
-    region = "us-east-1"
+    bucket = "statefile-terraform-psharma"
+    key    = "Rds-postgresql-instance/terraform.tfstate"
+    region = "ap-southeast-2"
   }
 }

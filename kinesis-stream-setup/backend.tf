@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "statefile-terraform-psharma"
-    key    = "Kinesis-stream-data-consumer/terraform.tfstate"
+    key    = "Kinesis-stream-configuration/terraform.tfstate"
     region = "ap-southeast-2"
   }
 }
